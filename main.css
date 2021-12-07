@@ -29,13 +29,16 @@
     margin: 0 auto;
     padding: 0 50px;
 }
+.navbar__container img{
+  height:40px;
+  width: 40px;
+} 
 #navbar-logo{
     background-color:black;
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    z-index: 999;
+    margin-left: 10px;
+    
     display: flex;
     align-items: center;
     cursor: pointer;
