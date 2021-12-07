@@ -38,7 +38,7 @@
     background-size: 100%;
     z-index: 999;
     margin-left: 10px;
-    
+    color:black;
     display: flex;
     align-items: center;
     cursor: pointer;
