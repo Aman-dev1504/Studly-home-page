@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     font-family:'Kollektif'; 
-    background-image: url(bg.svg) ;
+    background-image: url(bg.png) ;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed; 
   background-size: cover; 
+  overflow: hidden;
 }
+
 .navbar{
    
     height: 80px;
@@ -258,9 +260,15 @@ list-style: none;
   margin-left: 50px;
   height:530px;
   width: 530px;
-  animation:float 3s linear infinite;
-}
+  overflow: hidden;
+  background-repeat: no-repeat;
 
+  
+}
+#main_img{
+  animation:float 4s linear infinite;
+ 
+}
 #support2{
     height:40px;
     margin-top:18px;
@@ -358,4 +366,8 @@ i{
   50%{
     transform: translateY(1.4rem);
 }  
+}
+*::selection{
+  background: #4D5D80;
+  color: white;
 }
