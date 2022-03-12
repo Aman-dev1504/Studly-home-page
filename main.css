@@ -258,6 +258,7 @@ list-style: none;
   margin-left: 50px;
   height:530px;
   width: 530px;
+  animation:float 3s linear infinite;
 }
 
 #support2{
@@ -350,4 +351,11 @@ i{
 }
 
 
-
+@keyframes float {
+  0%,100%{
+      transform: translateY(0rem);
+  }  
+  50%{
+    transform: translateY(1.4rem);
+}  
+}
